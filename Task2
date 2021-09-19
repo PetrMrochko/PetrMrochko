@@ -1,10 +1,9 @@
 time_in_second = int(input("Введите время в секундах >>> "))
 
-if time_in_second
-Hours = time_in_second // 3600
+import datetime
 
-Minutes = (time_in_second - Hours * 3600) // 60
+sec = time_in_second
 
-Seconds = int(time_in_second - Hours * 3600 - Minutes * 60)
+res = datetime.timedelta(seconds =sec)
 
-print(f"{Hours}:{Minutes}:{Seconds}")
+print(res)
