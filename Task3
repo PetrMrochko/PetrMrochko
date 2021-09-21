@@ -1,0 +1,6 @@
+shislo_N = input('Введите число >>> ')
+if shislo_N.isdigit():
+    print(sum([int(shislo_N * i) for i in range(1, 4)]))
+else:
+    print('Entered wrong value. Bye.')
+    quit()
