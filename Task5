@@ -1,0 +1,14 @@
+Revenue = int(input("Выручка за период: "))
+Overheads = int(input("Издержки за период :"))
+Income = Revenue - Overheads
+
+if Revenue > Overheads:
+    print("Фирма работает с прибылью")
+else:
+    print("Фирма работает с убытком")
+
+if Revenue > Overheads:
+    print("Рентабельность выручки = ", Income / Revenue)
+if Revenue > Overheads:
+    Stuff_number = int(input("Численность сотрудников: "))
+    print("Прибыль фирмы в расчете на одного сотрудника: ", Income / Stuff_number)
